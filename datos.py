@@ -152,5 +152,10 @@ def imprimir_nota_camper():
 def imprimir_camper_info():
     global data
     print("Información de todos los Campers:\n")
-    for camper in data.items():
-       print("Nombre:" , camper)
+    for doc, camper in data.items():
+        nombre = camper.get("Nombre", "")
+        apellido = camper.get("apellido", "")
+        if nombre and apellido:
+            print(f"Documento: {doc}, Nombre: {nombre} {apellido}")
+        else:
+            print(f"No se encontró información completa para el camper con documento {doc}.")

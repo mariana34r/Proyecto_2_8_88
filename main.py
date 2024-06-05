@@ -56,7 +56,7 @@ def menu_principal():
                     datos.cargar_datos()
                     datos.registrar_camper()
                 elif opcc == 2: 
-                    print("1.estado del camper\n 2.riesgo \n 3.ruta\n 4. eliminar camper\n 5.asignar grupo al camper ")
+                    print("1.estado del camper\n 2.riesgo \n 3.ruta\n 4. eliminar camper\n 5.asignar grupo al camper\n 6.Mostrar Campers")
                     opccm=int(input("ingrese a la opcion del camper que desea modificar: "))
                     if opccm == 1:
                         datos.imprimir_camper_info()
@@ -79,6 +79,8 @@ def menu_principal():
                         datos.imprimir_camper_info()
                         datos.cargar_datos()
                         datos.grupo_camper()
+                    elif opccm == 6:
+                        datos.imprimir_camper_info()
 
                 elif opcc == 3:
                     matricula.matricula_camper()
@@ -96,10 +98,11 @@ def menu_principal():
             elif opcion == 4 :
                 print("Bienvenido a reportes")
                 print("Que desea hacer ")
-                print("\n1.Campers que pasaron el examen inicial\n2. Entrenadores que se encuentran trabajando con CampusLands\n3.Ingresar un nuevo camper graduado\n4.Mostrar campers graduados \n5.volver al menu anterior")
+                print("\n1.Campers que pasaron el examen inicial\n2. Entrenadores que se encuentran trabajando con CampusLands\n3.Ingresar un nuevo camper graduado\n4.Mostrar campers graduados \n5.Mostrar campers Inscritos\n6.volver al menu anterior")
                 opcrprte= int(input("Ingreseuna opcion"))
                 if opcrprte == 1:
                     matricula.mostrar_camper_admitidos()
+                    datos.imprimir_camper_info()
                 elif opcrprte == 2:
                     datostrainers.imprimir_documentos_y_nombres()
                 elif opcrprte == 3:
@@ -107,6 +110,8 @@ def menu_principal():
                 elif opcrprte == 4:
                     camper_graduados.mostrar_camper_graduados()
                 elif opcrprte == 5:
+                    datos.imprimir_camper_info()
+                elif opcrprte == 6:
                     print("")
         elif rol == 2:
             print("1.dar notas a un camper\n 3.salir")
