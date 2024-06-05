@@ -51,7 +51,7 @@ def menu_principal():
 
             elif opcion==2:
                 print("1. registrar camper \n 2.modificar camper \n 3.Matricula")
-                opcc=int(input("ingrese la opcion a la que dea acceder: "))
+                opcc=int(input("ingrese la opcion a la que desea acceder: "))
                 if opcc == 1:
                     datos.cargar_datos()
                     datos.registrar_camper()
@@ -68,7 +68,7 @@ def menu_principal():
                         datos.riesgo_camper()
                     elif opccm == 3:
                         datos.imprimir_camper_info()
-                        print("rutas:\n nodaJS\n java\n javaScrip")
+                        print("rutas:\n nodaJS\n java\n javaScript")
                         datos.cargar_datos()
                         datos.ruta_camper()
                     elif opccm == 4:
