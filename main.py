@@ -96,25 +96,20 @@ def menu_principal():
             elif opcion == 4 :
                 print("Bienvenido a reportes")
                 print("Que desea hacer ")
-                print("\n1.Mostrar campers que estan Inscritos\n2.Campers que pasaron el examen inicial\n3. Entrenadores que se encuentran trabajando con CampusLands\n4. Campers que se encuentran con bajo rendimiento\n5.Campers y los trainer que se encuentren asociados a una ruta de entrenamiento\n6.Ingresar un nuevo camper graduado\n7.Mostrar campers graduados \n8.volver al menu anterior")
+                print("\n1.Campers que pasaron el examen inicial\n2. Entrenadores que se encuentran trabajando con CampusLands\n3.Ingresar un nuevo camper graduado\n4.Mostrar campers graduados \n5.volver al menu anterior")
                 opcrprte= int(input("Ingreseuna opcion"))
                 if opcrprte == 1:
-                    datos.imprimir_camper_info()
-                elif opcrprte == 2:
                     matricula.mostrar_camper_admitidos()
-                elif opcrprte == 3:
+                elif opcrprte == 2:
                     datostrainers.imprimir_documentos_y_nombres()
-                elif opcrprte == 6:
+                elif opcrprte == 3:
                     camper_graduados.campers_graduadoss()
-                elif opcrprte == 7:
+                elif opcrprte == 4:
                     camper_graduados.mostrar_camper_graduados()
-
-
-               
-
-
+                elif opcrprte == 5:
+                    print("")
         elif rol == 2:
-            print("1.dar notas a un camper\n 2.mostar grupo\n 3.salir")
+            print("1.dar notas a un camper\n 3.salir")
             letreros.letrero2()
             opctn= int(input("ingrese la opcion que desea realizar"))    
             if opctn == 1:

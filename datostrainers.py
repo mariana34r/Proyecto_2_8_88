@@ -79,6 +79,7 @@ def grupo_del_trainer():
     else:
         print("El documento ingresado no corresponde a ningún trainer registrado.")
 
+
         
 def imprimir_documentos_y_nombres():
     global data
