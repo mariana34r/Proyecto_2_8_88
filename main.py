@@ -127,8 +127,11 @@ def menu_principal():
         elif rol == 3:
             print("1. ver notas\n 2. salir")
             opci=int(input())
-            datos.cargar_datos()
-            datos.imprimir_nota_camper()
+            if opci == 1:
+                datos.cargar_datos()
+                datos.imprimir_nota_camper()
+            elif opci == 2:
+                print("")
         elif rol == 4:
             print("-------------------")
             print("  Usted ha salido ")

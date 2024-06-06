@@ -7,20 +7,8 @@
         "telefono": 22,
         "estado": "",
         "riesgo": "",
-        "ruta": "",
+        "ruta": "Java",
         "nota": 94.0,
-        "grupo": ""
-    },
-    "23": {
-        "Nombre": "aa",
-        "apellido": "a",
-        "direccion": "ass",
-        "acudiente": "aaa",
-        "telefono": 222,
-        "estado": "",
-        "riesgo": "",
-        "ruta": "",
-        "nota": "",
         "grupo": ""
     },
     "223": {
@@ -32,7 +20,7 @@
         "estado": "",
         "riesgo": "",
         "ruta": "",
-        "nota": "",
+        "nota": 85.0,
         "grupo": ""
     },
     "2228": {
@@ -53,6 +41,30 @@
         "direccion": "a",
         "acudiente": "a",
         "telefono": 22222222,
+        "estado": "",
+        "riesgo": "",
+        "ruta": "",
+        "nota": "",
+        "grupo": ""
+    },
+    "22888": {
+        "Nombre": "maa",
+        "apellido": "aa",
+        "direccion": "giron",
+        "acudiente": "mama",
+        "telefono": 322,
+        "estado": "",
+        "riesgo": "",
+        "ruta": "",
+        "nota": "",
+        "grupo": ""
+    },
+    "222222": {
+        "Nombre": "aa",
+        "apellido": "aa",
+        "direccion": "aaa",
+        "acudiente": "aaaa",
+        "telefono": 222,
         "estado": "",
         "riesgo": "",
         "ruta": "",
