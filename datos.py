@@ -52,7 +52,7 @@ def estado_camper():
     global data
     doc = input("Ingrese el documento del camper al que se le asignara el estado: ")
     if doc in data:
-        estado_del_camper = input("Ingrese el nuevo apellido: ")
+        estado_del_camper = input("Ingrese el nuevo estado del camper: ")
         data[doc]["estado"] = estado_del_camper
         print("estado actualizado")
         guardar_datos()
@@ -63,7 +63,7 @@ def riesgo_camper():
     global data
     doc = input("Ingrese el documento del camper al que se le asignara el estado: ")
     if doc in data:
-        riesgocamper = input("Ingrese el nuevo apellido: ")
+        riesgocamper = input("Ingrese el nuevo estado del camper ")
         data[doc]["riesgo"] = riesgocamper
         print("estado actualizado")
         guardar_datos()
