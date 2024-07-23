@@ -5,11 +5,10 @@
 |--|--|
 | 1. | [Descripción](#Descripcion) |
 | 2. | [Funcionalidades](#Funcionalidades) |
-| 3. | [Tecnologías Utilizadas](#Tenologia Usada) |
+| 3. | [Tecnologías Utilizadas](#Tenologia_Usada) |
 | 4. | [Uso del Repositorio](#Uso) |
 | 5. | [Instrucciones de Ejecución](#Instrucciones) |
-| 6. | [Mapa](#Mapa) |
-| 7. | [Autores](#Autores) |
+| 6. | [Autores](#Autores) |
 
 ## Descripcion🚀
 Este es un programa que le permita llevar el seguimiento académico de todos los campers que se encuentran matriculados en el programa intensivo de programación, donde el coordinador
